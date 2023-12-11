@@ -16,9 +16,6 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/Raja17020/RDP-S-Beta/main/wallpaper.png -OutFile wallpaper.bmp
         Invoke-WebRequest https://raw.githubusercontent.com/Raja17020/RDP-S-Beta/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Raja17020/RDP-S-Beta/main/loop.bat -OutFile loop.bat
-    - name: Mendownload Launcher.
-      run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/Raja17020/RDP-S-Beta/main/launcher/Node.js.lnk -OutFile Node.js.lnk
     - name: Mengextract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ke Akun Ngrok.
